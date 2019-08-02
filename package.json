@@ -1,0 +1,24 @@
+{
+  "name": "browsersync-dev-server",
+  "version": "1.0.0",
+  "description": "Development Server based on BrowserSync",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocafi/browsersync-dev-server.git"
+  },
+  "author": "Joao Araujo (jocafi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jocafi/browsersync-dev-server/issues"
+  },
+  "homepage": "https://github.com/jocafi/browsersync-dev-server#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}
