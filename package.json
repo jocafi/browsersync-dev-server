@@ -19,6 +19,6 @@
   "homepage": "https://github.com/jocafi/browsersync-dev-server#readme",
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "http-proxy-middleware": "^0.19.1"
+    "http-proxy-middleware": "^1.0.4"
   }
 }
