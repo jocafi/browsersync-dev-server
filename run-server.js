@@ -7,8 +7,8 @@
 var browserSync = require('browser-sync');
 var proxyMiddleware = require('http-proxy-middleware');
 
-var internProxy = proxyMiddleware('/intern_api', {target: 'http://localhost:8080'});
-var publicProxy = proxyMiddleware('/public_api', {target: 'http://localhost:8080'});
+var internProxy = proxyMiddleware('/intern/api/v1', {target: 'http://localhost:8080'});
+var publicProxy = proxyMiddleware('/public/api/v1', {target: 'http://localhost:8080'});
 
 browserSync({
     server: {
